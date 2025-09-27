@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 if (_EditTituloLibro.text.isNotEmpty) {
                   _agregarNuevoLibro(_EditTituloLibro.text.toString());
-                  //EditTituloLibro.clear();
+                  EditTituloLibro.clear();
                   Navigator.of(context).pop();
                 }
               },
